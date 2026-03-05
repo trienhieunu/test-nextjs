@@ -1,5 +1,6 @@
 import Features from '@/components/Features';
 import Stats from '@/components/Stats';
+import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -63,6 +64,9 @@ export default function Home() {
 
         {/* Stats Section */}
         <Stats />
+
+        {/* CTA Section */}
+        <CTA />
 
         {/* Footer */}
         <Footer />
