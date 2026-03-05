@@ -1,7 +1,26 @@
 {
-  "name": "test-nextjs",
-  "version": "0.1.0",
+  "name": "nextjs-starter",
+  "version": "1.0.0",
   "private": true,
+  "description": "A modern, beautiful, and production-ready Next.js starter template with TypeScript, Tailwind CSS, and stunning animations",
+  "keywords": [
+    "nextjs",
+    "typescript",
+    "tailwindcss",
+    "starter",
+    "template",
+    "react",
+    "frontend",
+    "dark-mode",
+    "animations"
+  ],
+  "author": "trienhieunu <trienhieunu>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trienhieunu/test-nextjs.git"
+  },
+  "homepage": "https://github.com/trienhieunu/test-nextjs#readme",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
