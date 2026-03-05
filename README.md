@@ -1,36 +1,133 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NextJS Starter 🚀
 
-## Getting Started
+A modern, beautiful, and production-ready Next.js starter template with TypeScript, Tailwind CSS, and stunning animations.
 
-First, run the development server:
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
+
+## ✨ Features
+
+- 🎨 **Modern UI** - Beautiful gradient backgrounds, glass effects, and smooth animations
+- 🌙 **Dark Mode** - Fully functional dark/light mode toggle with persistence
+- 📱 **Responsive Design** - Mobile-first approach with Tailwind CSS
+- ⚡ **TypeScript** - Full type safety for bug-free development
+- 🎯 **Optimized** - Built with Next.js 15 App Router for best performance
+- 🎭 **Animations** - Smooth floating, pulse, and gradient animations
+- ♿ **Accessible** - WCAG compliant with proper ARIA labels
+- 🚀 **Production Ready** - Optimized for deployment
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** [Lucide React](https://lucide.dev/)
+- **Deployment:** [Vercel](https://vercel.com/)
+
+## 📦 Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/trienhieunu/test-nextjs.git
+
+# Navigate to the project
+cd test-nextjs
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+test-nextjs/
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx      # Root layout with metadata
+│   │   ├── page.tsx        # Home page
+│   │   └── globals.css     # Global styles
+│   └── components/
+│       ├── Features.tsx    # Features section
+│       ├── Stats.tsx       # Statistics section
+│       ├── CTA.tsx         # Call-to-action section
+│       ├── Footer.tsx      # Footer component
+│       └── ThemeToggle.tsx # Dark/light mode toggle
+├── public/                 # Static assets
+├── package.json
+└── tsconfig.json
+```
 
-## Learn More
+## 🚀 Deploy
 
-To learn more about Next.js, take a look at the following resources:
+Deploy instantly with [Vercel](https://vercel.com/new):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/trienhieunu/test-nextjs)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customization
 
-## Deploy on Vercel
+### Colors
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Edit `src/app/globals.css` to customize the color palette:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```css
+:root {
+  --primary: 142 76% 36%;  /* Emerald */
+  --secondary: 240 4.8% 95.9%;
+  /* ... */
+}
+```
+
+### Animations
+
+Modify animation speeds in `src/app/globals.css`:
+
+```css
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+```
+
+## 📝 Available Scripts
+
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run start        # Start production server
+npm run lint         # Run ESLint
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Hiếu Vũ** - [trienhieunu](https://github.com/trienhieunu)
+
+## 🙏 Acknowledgments
+
+- [Next.js](https://nextjs.org/) for the amazing framework
+- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+- [Lucide](https://lucide.dev/) for beautiful icons
+- [shadcn/ui](https://ui.shadcn.com/) for design inspiration
+
+---
+
+Made with ❤️ by trienhieunu
