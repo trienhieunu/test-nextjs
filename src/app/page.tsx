@@ -1,4 +1,5 @@
 import Features from '@/components/Features';
+import Stats from '@/components/Stats';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -59,6 +60,9 @@ export default function Home() {
 
         {/* Features Section */}
         <Features />
+
+        {/* Stats Section */}
+        <Stats />
 
         {/* Footer */}
         <Footer />
