@@ -2,6 +2,7 @@ import Features from '@/components/Features';
 import Stats from '@/components/Stats';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
+import ThemeToggle from '@/components/ThemeToggle';
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
             <button className="px-6 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-full font-medium hover:shadow-glow transition-all hover:scale-105">
               Get Started
             </button>
+            <ThemeToggle />
           </div>
         </nav>
 
