@@ -1,4 +1,5 @@
 import Features from '@/components/Features';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -58,6 +59,9 @@ export default function Home() {
 
         {/* Features Section */}
         <Features />
+
+        {/* Footer */}
+        <Footer />
       </div>
     </div>
   );
