@@ -1,3 +1,5 @@
+import Features from '@/components/Features';
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-emerald-50 dark:from-slate-950 dark:via-slate-900 dark:to-emerald-950">
@@ -53,6 +55,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Features Section */}
+        <Features />
       </div>
     </div>
   );
