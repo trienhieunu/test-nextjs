@@ -3,6 +3,7 @@ import Stats from '@/components/Stats';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
 import ThemeToggle from '@/components/ThemeToggle';
+import Testimonials from '@/components/Testimonials';
 
 export default function Home() {
   return (
@@ -16,17 +17,17 @@ export default function Home() {
 
       <div className="relative z-10">
         {/* Navigation */}
-        <nav className="container mx-auto px-6 py-6 flex items-center justify-between">
+        <nav className="container mx-auto px-6 py-6 flex items-center justify-between sticky top-0 z-20 backdrop-blur supports-[backdrop-filter]:bg-white/20 dark:supports-[backdrop-filter]:bg-slate-950/20">
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 bg-gradient-to-br from-emerald-400 to-cyan-500 rounded-lg shadow-glow" />
             <span className="text-xl font-bold text-slate-900 dark:text-white">NextJS Starter</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#features" className="text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Features</a>
-            <a href="#about" className="text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">About</a>
-            <button className="px-6 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-full font-medium hover:shadow-glow transition-all hover:scale-105">
+            <a href="#testimonials" className="text-slate-600 dark:text-slate-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">Testimonials</a>
+            <a href="#cta" className="px-6 py-2 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-full font-medium hover:shadow-glow transition-all hover:scale-105 inline-block">
               Get Started
-            </button>
+            </a>
             <ThemeToggle />
           </div>
         </nav>
@@ -51,12 +52,12 @@ export default function Home() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="px-8 py-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-full font-semibold text-lg hover:shadow-glow transition-all hover:scale-105 animate-float">
+              <a href="#features" className="px-8 py-4 bg-gradient-to-r from-emerald-500 to-cyan-500 text-white rounded-full font-semibold text-lg hover:shadow-glow transition-all hover:scale-105 animate-float inline-block">
                 Start Building
-              </button>
-              <button className="px-8 py-4 bg-white dark:bg-slate-800 text-slate-900 dark:text-white rounded-full font-semibold text-lg border-2 border-slate-200 dark:border-slate-700 hover:border-emerald-500 dark:hover:border-emerald-500 transition-all hover:scale-105">
+              </a>
+              <a href="#testimonials" className="px-8 py-4 bg-white dark:bg-slate-800 text-slate-900 dark:text-white rounded-full font-semibold text-lg border-2 border-slate-200 dark:border-slate-700 hover:border-emerald-500 dark:hover:border-emerald-500 transition-all hover:scale-105 inline-block">
                 View Demo
-              </button>
+              </a>
             </div>
           </div>
         </section>
@@ -66,6 +67,9 @@ export default function Home() {
 
         {/* Stats Section */}
         <Stats />
+
+        {/* Testimonials */}
+        <Testimonials />
 
         {/* CTA Section */}
         <CTA />

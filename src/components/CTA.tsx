@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function CTA() {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="cta" className="py-24 relative overflow-hidden">
       {/* Animated background */}
       <div className="absolute inset-0 bg-gradient-to-r from-emerald-500 via-cyan-500 to-purple-500 animate-gradient opacity-90" />
       <div className="absolute inset-0 bg-black/20" />
